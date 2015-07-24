@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF5347B21B61C3E00003578E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5347B11B61C3E00003578E /* main.m */; };
+		EF5347B51B61C3E00003578E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5347B41B61C3E00003578E /* AppDelegate.m */; };
+		EF5347B81B61C3E00003578E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5347B71B61C3E00003578E /* ViewController.m */; };
+		EF5347BB1B61C3E00003578E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5347B91B61C3E00003578E /* Main.storyboard */; };
+		EF5347BD1B61C3E00003578E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5347BC1B61C3E00003578E /* Images.xcassets */; };
+		EF5347C01B61C3E00003578E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF5347BE1B61C3E00003578E /* LaunchScreen.xib */; };
+		EF5347CC1B61C3E00003578E /* LedONOFFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5347CB1B61C3E00003578E /* LedONOFFTests.m */; };
+		EFDECB221B61E50500109F58 /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDECB201B61E50500109F58 /* gray.png */; };
+		EFDECB231B61E50500109F58 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDECB211B61E50500109F58 /* green.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF5347C61B61C3E00003578E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5347A41B61C3E00003578E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5347AB1B61C3E00003578E;
+			remoteInfo = LedONOFF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF5347AC1B61C3E00003578E /* LedONOFF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LedONOFF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5347B01B61C3E00003578E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5347B11B61C3E00003578E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF5347B31B61C3E00003578E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF5347B41B61C3E00003578E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF5347B61B61C3E00003578E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF5347B71B61C3E00003578E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF5347BA1B61C3E00003578E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF5347BC1B61C3E00003578E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF5347BF1B61C3E00003578E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF5347C51B61C3E00003578E /* LedONOFFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LedONOFFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5347CA1B61C3E00003578E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5347CB1B61C3E00003578E /* LedONOFFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LedONOFFTests.m; sourceTree = "<group>"; };
+		EFDECB201B61E50500109F58 /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gray.png; path = "../../../../../Volumes/ENTERTAINMENT/Mac OS/Image/gray.png"; sourceTree = "<group>"; };
+		EFDECB211B61E50500109F58 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = "../../../../../Volumes/ENTERTAINMENT/Mac OS/Image/green.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5347A91B61C3E00003578E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5347C21B61C3E00003578E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5347A31B61C3E00003578E = {
+			isa = PBXGroup;
+			children = (
+				EF5347AE1B61C3E00003578E /* LedONOFF */,
+				EF5347C81B61C3E00003578E /* LedONOFFTests */,
+				EF5347AD1B61C3E00003578E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5347AD1B61C3E00003578E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5347AC1B61C3E00003578E /* LedONOFF.app */,
+				EF5347C51B61C3E00003578E /* LedONOFFTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5347AE1B61C3E00003578E /* LedONOFF */ = {
+			isa = PBXGroup;
+			children = (
+				EF5347B31B61C3E00003578E /* AppDelegate.h */,
+				EF5347B41B61C3E00003578E /* AppDelegate.m */,
+				EF5347B61B61C3E00003578E /* ViewController.h */,
+				EF5347B71B61C3E00003578E /* ViewController.m */,
+				EF5347B91B61C3E00003578E /* Main.storyboard */,
+				EFDECB1F1B61E4EE00109F58 /* Image */,
+				EF5347BC1B61C3E00003578E /* Images.xcassets */,
+				EF5347BE1B61C3E00003578E /* LaunchScreen.xib */,
+				EF5347AF1B61C3E00003578E /* Supporting Files */,
+			);
+			path = LedONOFF;
+			sourceTree = "<group>";
+		};
+		EF5347AF1B61C3E00003578E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5347B01B61C3E00003578E /* Info.plist */,
+				EF5347B11B61C3E00003578E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF5347C81B61C3E00003578E /* LedONOFFTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5347CB1B61C3E00003578E /* LedONOFFTests.m */,
+				EF5347C91B61C3E00003578E /* Supporting Files */,
+			);
+			path = LedONOFFTests;
+			sourceTree = "<group>";
+		};
+		EF5347C91B61C3E00003578E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5347CA1B61C3E00003578E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFDECB1F1B61E4EE00109F58 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				EFDECB201B61E50500109F58 /* gray.png */,
+				EFDECB211B61E50500109F58 /* green.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5347AB1B61C3E00003578E /* LedONOFF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5347CF1B61C3E00003578E /* Build configuration list for PBXNativeTarget "LedONOFF" */;
+			buildPhases = (
+				EF5347A81B61C3E00003578E /* Sources */,
+				EF5347A91B61C3E00003578E /* Frameworks */,
+				EF5347AA1B61C3E00003578E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LedONOFF;
+			productName = LedONOFF;
+			productReference = EF5347AC1B61C3E00003578E /* LedONOFF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF5347C41B61C3E00003578E /* LedONOFFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5347D21B61C3E00003578E /* Build configuration list for PBXNativeTarget "LedONOFFTests" */;
+			buildPhases = (
+				EF5347C11B61C3E00003578E /* Sources */,
+				EF5347C21B61C3E00003578E /* Frameworks */,
+				EF5347C31B61C3E00003578E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5347C71B61C3E00003578E /* PBXTargetDependency */,
+			);
+			name = LedONOFFTests;
+			productName = LedONOFFTests;
+			productReference = EF5347C51B61C3E00003578E /* LedONOFFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5347A41B61C3E00003578E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Văn Tiến Tú";
+				TargetAttributes = {
+					EF5347AB1B61C3E00003578E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EF5347C41B61C3E00003578E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EF5347AB1B61C3E00003578E;
+					};
+				};
+			};
+			buildConfigurationList = EF5347A71B61C3E00003578E /* Build configuration list for PBXProject "LedONOFF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF5347A31B61C3E00003578E;
+			productRefGroup = EF5347AD1B61C3E00003578E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5347AB1B61C3E00003578E /* LedONOFF */,
+				EF5347C41B61C3E00003578E /* LedONOFFTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5347AA1B61C3E00003578E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5347BB1B61C3E00003578E /* Main.storyboard in Resources */,
+				EF5347C01B61C3E00003578E /* LaunchScreen.xib in Resources */,
+				EFDECB231B61E50500109F58 /* green.png in Resources */,
+				EFDECB221B61E50500109F58 /* gray.png in Resources */,
+				EF5347BD1B61C3E00003578E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5347C31B61C3E00003578E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5347A81B61C3E00003578E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5347B81B61C3E00003578E /* ViewController.m in Sources */,
+				EF5347B51B61C3E00003578E /* AppDelegate.m in Sources */,
+				EF5347B21B61C3E00003578E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5347C11B61C3E00003578E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5347CC1B61C3E00003578E /* LedONOFFTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF5347C71B61C3E00003578E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5347AB1B61C3E00003578E /* LedONOFF */;
+			targetProxy = EF5347C61B61C3E00003578E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF5347B91B61C3E00003578E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5347BA1B61C3E00003578E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF5347BE1B61C3E00003578E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5347BF1B61C3E00003578E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF5347CD1B61C3E00003578E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF5347CE1B61C3E00003578E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5347D01B61C3E00003578E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LedONOFF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF5347D11B61C3E00003578E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LedONOFF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF5347D31B61C3E00003578E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LedONOFFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LedONOFF.app/LedONOFF";
+			};
+			name = Debug;
+		};
+		EF5347D41B61C3E00003578E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LedONOFFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LedONOFF.app/LedONOFF";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5347A71B61C3E00003578E /* Build configuration list for PBXProject "LedONOFF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5347CD1B61C3E00003578E /* Debug */,
+				EF5347CE1B61C3E00003578E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5347CF1B61C3E00003578E /* Build configuration list for PBXNativeTarget "LedONOFF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5347D01B61C3E00003578E /* Debug */,
+				EF5347D11B61C3E00003578E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5347D21B61C3E00003578E /* Build configuration list for PBXNativeTarget "LedONOFFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5347D31B61C3E00003578E /* Debug */,
+				EF5347D41B61C3E00003578E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF5347A41B61C3E00003578E /* Project object */;
+}
